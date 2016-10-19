@@ -12,6 +12,7 @@
         <module>agent</module>
         <module>server</module>
         <module>parse</module>
+        <module>computer</module>
     </modules>
 
 
