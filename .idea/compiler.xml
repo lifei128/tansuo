@@ -23,11 +23,13 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="agent" />
+        <module name="parse" />
         <module name="server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="agent" target="1.5" />
+      <module name="parse" target="1.8" />
       <module name="server" target="1.5" />
       <module name="tansuo" target="1.5" />
     </bytecodeTargetLevel>
